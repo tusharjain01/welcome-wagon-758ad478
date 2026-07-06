@@ -105,11 +105,7 @@ function HeroSection() {
     _s1();
     const reduce = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$utils$2f$reduced$2d$motion$2f$use$2d$reduced$2d$motion$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useReducedMotion"])();
     const rise = (delay)=>reduce ? {} : {
-            initial: {
-                opacity: 0,
-                y: 20,
-                filter: "blur(6px)"
-            },
+            initial: false,
             animate: {
                 opacity: 1,
                 y: 0,
