@@ -77,14 +77,14 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Lovable App" },
-      { name: "description", content: "Lovable Generated Project" },
-      { name: "author", content: "Lovable" },
-      { property: "og:title", content: "Lovable App" },
-      { property: "og:description", content: "Lovable Generated Project" },
+      { title: "Soulful Living — Mindful Goods" },
+      { name: "description", content: "Curated lifestyle products for mindful living. Shop our collection of sustainable, beautifully designed home goods and accessories." },
+      { name: "author", content: "Soulful Living" },
+      { property: "og:title", content: "Soulful Living — Mindful Goods" },
+      { property: "og:description", content: "Curated lifestyle products for mindful living. Shop our collection of sustainable, beautifully designed home goods and accessories." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
-      { name: "twitter:site", content: "@Lovable" },
+      { name: "twitter:site", content: "@soulful_living" },
     ],
     links: [
       {
