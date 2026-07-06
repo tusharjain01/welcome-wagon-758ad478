@@ -2512,6 +2512,10 @@
     padding-top: calc(var(--spacing) * 32);
   }
 
+  .pt-36 {
+    padding-top: calc(var(--spacing) * 36);
+  }
+
   .pr-1 {
     padding-right: var(--spacing);
   }
@@ -4065,6 +4069,12 @@
   }
 
   @media (min-width: 40rem) {
+    .sm\:pt-40 {
+      padding-top: calc(var(--spacing) * 40);
+    }
+  }
+
+  @media (min-width: 40rem) {
     .sm\:text-5xl {
       font-size: var(--text-5xl);
       line-height: var(--tw-leading, var(--text-5xl--line-height));
@@ -4493,6 +4503,12 @@
   @media (min-width: 64rem) {
     .lg\:self-start {
       align-self: flex-start;
+    }
+  }
+
+  @media (min-width: 64rem) {
+    .lg\:pt-44 {
+      padding-top: calc(var(--spacing) * 44);
     }
   }
 
