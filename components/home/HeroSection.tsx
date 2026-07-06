@@ -60,7 +60,7 @@ export function HeroSection() {
     reduce
       ? {}
       : {
-          initial: { opacity: 0, y: 20, filter: "blur(6px)" },
+          initial: false,
           animate: { opacity: 1, y: 0, filter: "blur(0px)" },
           transition: { duration: 0.8, delay, ease },
         };
@@ -92,7 +92,7 @@ export function HeroSection() {
         aria-hidden
       />
 
-      <div className="container-bsm relative z-10 flex flex-1 flex-col items-center justify-center pt-28 pb-6 text-center">
+      <div className="container-bsm relative z-10 flex flex-1 flex-col items-center justify-start pt-36 pb-6 text-center sm:pt-40 lg:pt-44">
         <motion.span
           {...rise(0)}
           className="eyebrow border-white/15 bg-white/5 text-white/80"

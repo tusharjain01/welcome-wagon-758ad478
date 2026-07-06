@@ -105,11 +105,7 @@ function HeroSection() {
     _s1();
     const reduce = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$utils$2f$reduced$2d$motion$2f$use$2d$reduced$2d$motion$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useReducedMotion"])();
     const rise = (delay)=>reduce ? {} : {
-            initial: {
-                opacity: 0,
-                y: 20,
-                filter: "blur(6px)"
-            },
+            initial: false,
             animate: {
                 opacity: 1,
                 y: 0,
@@ -165,7 +161,7 @@ function HeroSection() {
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "container-bsm relative z-10 flex flex-1 flex-col items-center justify-center pt-28 pb-6 text-center",
+                className: "container-bsm relative z-10 flex flex-1 flex-col items-center justify-start pt-36 pb-6 text-center sm:pt-40 lg:pt-44",
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].span, {
                         ...rise(0),
